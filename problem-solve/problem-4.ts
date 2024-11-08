@@ -9,7 +9,7 @@ type Circle = {
     radius: number;
 };
 
-type Rectangle = {
+type Rectangle ={
     shape: "rectangle";
     width: number;
     height: number;

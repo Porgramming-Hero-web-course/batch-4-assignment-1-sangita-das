@@ -9,7 +9,7 @@
         if (result.indexOf(arr[i]) === -1) {
             result.push(arr[i]);
         }
-    }
+       }
     return result;
 }
 

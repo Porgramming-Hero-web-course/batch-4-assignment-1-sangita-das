@@ -13,7 +13,7 @@ car.getCarAge();
 {
     // 
     
-class Car {
+class Car{
     make: string;
     model: string;
     year: number;
@@ -30,8 +30,8 @@ class Car {
     }
 }
 
-const car = new Car("Honda", "Civic", 2018);
-console.log(car.getCarAge()); 
+    const car = new Car("Honda", "Civic", 2018);
+    console.log(car.getCarAge()); 
 
     // 
 }

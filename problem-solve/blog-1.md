@@ -13,8 +13,8 @@ function unionTypeCode(code: string | number) {
   console.log(`The output is: ${code}`);
 }
 
-unionTypeCode(2024);        // Output: The output is: 2024
-unionTypeCode('Bangladesh'); // Output: The output is: Bangladesh
+unionTypeCode(2024);        // O/P: The output is: 2024
+unionTypeCode('Bangladesh'); // O/P: The output is: Bangladesh
 
 In this example, the parameter code can be either a string or a number. TypeScript ensures only these types are allowed that making the function versatile and safe. By using the | operator, we can handle multiple types without compromising type checking.
 
